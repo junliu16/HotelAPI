@@ -1,0 +1,27 @@
+2017-05-16 22:02:22.207  INFO 17016 --- [main] hotelservice.Application                 : Starting Application v0.1.0 on DELL with PID 17016 (C:\Users\junli\Downloads\HotelAPI-0.1.0.jar started by junli in C:\Users\junli\Downloads)
+2017-05-16 22:02:22.219 DEBUG 17016 --- [main] hotelservice.Application                 : Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-05-16 22:02:22.220  INFO 17016 --- [main] hotelservice.Application                 : No active profile set, falling back to default profiles: default
+2017-05-16 22:02:22.323  INFO 17016 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2cdf8d8a: startup date [Tue May 16 22:02:22 EDT 2017]; root of context hierarchy
+2017-05-16 22:02:23.981  INFO 17016 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-05-16 22:02:24.002  INFO 17016 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-05-16 22:02:24.005  INFO 17016 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-05-16 22:02:24.576  INFO 17016 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-05-16 22:02:24.697  INFO 17016 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-05-16 22:02:24.703  INFO 17016 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-05-16 22:02:24.704  INFO 17016 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-05-16 22:02:24.704  INFO 17016 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-05-16 22:02:24.707  INFO 17016 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-05-16 22:02:25.268  INFO 17016 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-05-16 22:02:25.361  INFO 17016 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-05-16 22:02:25.370  INFO 17016 --- [main] hotelservice.Application                 : Started Application in 3.767 seconds (JVM running for 5.296)
+2017-05-16 22:02:47.482  INFO 17016 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-05-16 22:02:56.315 DEBUG 17016 --- [http-nio-8080-exec-4] hotelservice.HotelDataController         : Loading data from datasource...
+2017-05-16 22:02:56.350 DEBUG 17016 --- [http-nio-8080-exec-4] hotelservice.HotelDataController         : Done loading data from datasource.
+2017-05-16 22:02:56.377 DEBUG 17016 --- [http-nio-8080-exec-4] hotelservice.HotelDataController         : returning 0 data sets
+2017-05-16 22:03:08.519 DEBUG 17016 --- [http-nio-8080-exec-3] hotelservice.HotelDataController         : Loading data from datasource...
+2017-05-16 22:03:08.543 DEBUG 17016 --- [http-nio-8080-exec-3] hotelservice.HotelDataController         : Done loading data from datasource.
+2017-05-16 22:03:08.546 DEBUG 17016 --- [http-nio-8080-exec-3] hotelservice.HotelDataController         : returning 0 data sets
+2017-05-16 22:05:44.951 DEBUG 17016 --- [http-nio-8080-exec-7] hotelservice.HotelDataController         : Loading data from datasource...
+2017-05-16 22:05:44.952 DEBUG 17016 --- [http-nio-8080-exec-7] hotelservice.HotelDataController         : Done loading data from datasource.
+2017-05-16 22:05:44.952 DEBUG 17016 --- [http-nio-8080-exec-7] hotelservice.HotelDataController         : returning 6 data sets
+2017-05-16 22:06:00.535 DEBUG 17016 --- [http-nio-8080-exec-6] hotelservice.HotelDataController         : returning 6 data sets

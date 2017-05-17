@@ -1,0 +1,46 @@
+Requirments:
+In this exam, you are provided with hotels database in CSV (Comma Separated Values) format.
+
+We need you implement HTTP service, according to the API requirements described below. 
+You may use any language or platform that you like: C#/Java/Scala/etc.
+
+Good luck!
+API
+
+    Search hotels by CityId
+    Provide optional sorting of the result by Price (both ASC and DESC order).
+
+Solution:
+
+This application is implemented using Spring Boot. Main data processing logic is in HotelDataController.java. After loading hotel data from datasource file, it caches the data so no file loading is needed for subsequent request.
+
+How to start the application (3 ways):
+
+1. Run the application package (HotelAPI-0.1.0.jar) directly: 
+	*Requires Java 8 installation.
+	For this method to work, create 2 file folders exactly as the following:
+	C:\workspace3\HotelAPI\data and
+	C:\workspace3\HotelAPI\logs
+
+	Put hoteldb.csv in the C:\workspace3\HotelAPI\data folder.
+	
+	Download HotelAPI-0.1.0.jar.
+	
+	Now go to the directory where the jar file is stored, to start the application, type 'java -jar ./HotelAPI-0.1.0.jar'. 
+	
+2. Re-build the application with Eclipse and run:
+	*Requires Java 8 installation and Maven.
+	Import the project ( it is an existing maven project ), re-configure application.properties
+	Right click on Application.java, "Run as" -> "Spring Boot App"
+
+3. "cd" to %WORKSPACE%/HotelAPI where the application project is downloaded. 
+	*Requires Java 8 installation and Maven.
+	Type in "mvn install", then "mvn spring-boot:run"
+	
+How to test it:
+	To test, go to http://localhost:8080/getHotel?name=Bangkok
+	Use different values for name.
+	
+	To see sorted results, go to http://localhost:8080/getHotel?name=Bangkok&sort=asc
+	Again, value for name can be changed, use 'asc' or 'desc' for sort value.
+	
