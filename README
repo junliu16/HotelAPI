@@ -41,3 +41,5 @@ II) How to test it:
 	Again, value for name can be changed, use 'asc' or 'desc' for sort value.
 	
 	Expected result: A json document with hotel data records in proper order is shown in browser.
+
+	Application log is generated in C:\workspace3\HotelAPI\logs\application.log, which can be used for debugging or storing user activities.
