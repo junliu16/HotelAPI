@@ -34,10 +34,10 @@ I) How to start the application (3 ways):
 	Type in "mvn install", then "mvn spring-boot:run"
 	
 II) How to test it:
-	To test, go to http://localhost:8080/getHotel?name=Bangkok
+	To test, go to http://localhost:8080/getHotel?cityid=Bangkok
 	Use different values for name.
 	
-	To see sorted results, go to http://localhost:8080/getHotel?name=Bangkok&sort=asc
+	To see sorted results, go to http://localhost:8080/getHotel?cityid=Bangkok&sort=asc
 	Again, value for name can be changed, use 'asc' or 'desc' for sort value.
 	
 	Expected result: A json document with hotel data records in proper order is shown in browser.
