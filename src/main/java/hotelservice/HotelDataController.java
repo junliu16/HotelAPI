@@ -31,8 +31,8 @@ public class HotelDataController {
     private static List<HotelData> hotelList = new ArrayList<>();
     
     @RequestMapping("/getHotel")
-    public ResponsePOJO getHotel(@RequestParam(value="name", defaultValue="World") String name, @RequestParam(value="sort", defaultValue="asc") String sort) {
-    	
+    public ResponsePOJO getHotel(@RequestParam(value="cityid", defaultValue="all") String name, @RequestParam(value="sort", defaultValue="asc") String sort) {
+    	logger.debug("getHotel() request. cityid: [" + name + "] sort: [" + sort + "]");
     	hotelDataFilePath = env.getProperty(dataSourceFile);
     	 
     	ResponsePOJO res = new ResponsePOJO();
@@ -49,7 +49,7 @@ public class HotelDataController {
     	
     	res.hotelInfo = list.toArray(new HotelData[list.size()]);
     	
-    	logger.debug("returning " + (res.hotelInfo==null? 0 : res.hotelInfo.length) + " data sets");
+    	logger.debug("getHotel() returning " + (res.hotelInfo==null? 0 : res.hotelInfo.length) + " data sets");
         return res;
     }//getHotel
     
@@ -62,7 +62,12 @@ public class HotelDataController {
     	if ( hotelList.size() == 0 ) {
     		hotelList = loadHotelData();
     	}
-    	return hotelList.stream().filter(e -> e.city.equalsIgnoreCase(cityName)).collect(Collectors.toList());
+	if ( cityName != null && cityName.equalsIgnoreCase("all") ) {
+		return hotelList;
+	}
+	else {
+    		return hotelList.stream().filter(e -> e.city.equalsIgnoreCase(cityName)).collect(Collectors.toList());
+	}
     }//getHotelData
     
     /**
