@@ -40,3 +40,4 @@ II) How to test it:
 	To see sorted results, go to http://localhost:8080/getHotel?name=Bangkok&sort=asc
 	Again, value for name can be changed, use 'asc' or 'desc' for sort value.
 	
+	Expected result: A json document with hotel data records in proper order is shown in browser.
