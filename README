@@ -41,11 +41,11 @@ How to start the application (3 ways):
 	In this approach, Maven will run JUnit test, if failed, the application will not start. 
 	
 How to test run it:
-	To test, go to http://localhost:8080/getHotel?name=Bangkok
+	To test, go to http://localhost:8080/getHotel?cityid=Bangkok
 	Use different values for name.
 	
-	To see sorted results, go to http://localhost:8080/getHotel?name=Bangkok&sort=asc
+	To see sorted results, go to http://localhost:8080/getHotel?cityid=Bangkok&sort=asc
 	Again, value for name can be changed, use 'asc' or 'desc' for sort value.
 	
-	A call to reload data from datasource will look something like: http://localhost:8080/getHotel?name=Bangkok&reload=y
+	A call to reload data from datasource will look something like: http://localhost:8080/getHotel?cityid=Bangkok&reload=y
 	
