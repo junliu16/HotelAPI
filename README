@@ -18,7 +18,7 @@ A "reload" parameter can be added to the request url to reload the datasource. I
 
 How to start the application (3 ways):
 
-1. Run the application package (HotelAPI-0.1.0.jar) directly: 
+1. Run the application package (HotelAPI-0.1.0.jar in target directory) directly: 
 	*Requires Java 8 installation.
 	For this method to work, create 2 file folders exactly as the following:
 	C:\workspace3\HotelAPI\data and
@@ -47,5 +47,5 @@ How to test run it:
 	To see sorted results, go to http://localhost:8080/getHotel?name=Bangkok&sort=asc
 	Again, value for name can be changed, use 'asc' or 'desc' for sort value.
 	
-	The call to reload data from datasource will look something like: http://localhost:8080/getHotel?name=Bangkok&reload=y
+	A call to reload data from datasource will look something like: http://localhost:8080/getHotel?name=Bangkok&reload=y
 	
