@@ -1,3 +1,7 @@
+/*
+ * Jun Liu
+ * 05-16-2017
+ */
 package hotelservice;
 
 import java.io.Serializable;
@@ -48,8 +52,38 @@ public class HotelData implements Serializable, Comparable<HotelData>{
 		return "HotelData [city=" + city + ", hotelId=" + hotelId + ", room="
 				+ room + ", price=" + price + "]";
 	}
+	
 	@Override
 	public int compareTo(HotelData o) {
-		return this.price - o.price;
+		if ( !this.city.equals(o.city) ) {
+			return this.city.compareTo(o.city);
+		}
+		else {
+			return this.price - o.price;
+		}
+	}
+	
+	@Override 
+	public boolean equals (Object o) {
+		if(this == o ) {
+			return true;
+		}
+		if(( o == null) || (o.getClass() != this.getClass())) {
+			return false;
+		}
+		HotelData h = (HotelData) o;
+		if ( this.city.equalsIgnoreCase(h.city) && this.hotelId == h.hotelId) {
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+	@Override
+	public int hashCode() {
+		int hash = 7;// an arbitrary number
+		hash = 31 * hash + this.hotelId;
+		hash +=  this.city.toLowerCase().hashCode();
+		return hash;
 	}
 }

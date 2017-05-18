@@ -25,3 +25,815 @@
 2017-05-16 22:05:44.952 DEBUG 17016 --- [http-nio-8080-exec-7] hotelservice.HotelDataController         : Done loading data from datasource.
 2017-05-16 22:05:44.952 DEBUG 17016 --- [http-nio-8080-exec-7] hotelservice.HotelDataController         : returning 6 data sets
 2017-05-16 22:06:00.535 DEBUG 17016 --- [http-nio-8080-exec-6] hotelservice.HotelDataController         : returning 6 data sets
+2017-05-16 23:17:35.300  INFO 17016 --- [Thread-3] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2cdf8d8a: startup date [Tue May 16 22:02:22 EDT 2017]; root of context hierarchy
+2017-05-16 23:17:35.302  INFO 17016 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-05-16 23:44:04.738  INFO 7652 --- [main] hotelservice.Application                 : Starting Application on DELL with PID 7652 (C:\workspace3\HotelAPI\target\classes started by junli in C:\workspace3\HotelAPI)
+2017-05-16 23:44:04.741 DEBUG 7652 --- [main] hotelservice.Application                 : Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-05-16 23:44:04.742  INFO 7652 --- [main] hotelservice.Application                 : No active profile set, falling back to default profiles: default
+2017-05-16 23:44:04.796  INFO 7652 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6b37153c: startup date [Tue May 16 23:44:04 EDT 2017]; root of context hierarchy
+2017-05-16 23:44:05.724  INFO 7652 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-05-16 23:44:05.740  INFO 7652 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-05-16 23:44:05.741  INFO 7652 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-05-16 23:44:05.824  INFO 7652 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-05-16 23:44:05.936  INFO 7652 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-05-16 23:44:05.941  INFO 7652 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-05-16 23:44:05.942  INFO 7652 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-05-16 23:44:05.943  INFO 7652 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-05-16 23:44:05.947  INFO 7652 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-05-16 23:44:06.301  INFO 7652 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-05-16 23:44:06.383  INFO 7652 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-05-16 23:44:06.395  INFO 7652 --- [main] hotelservice.Application                 : Started Application in 1.985 seconds (JVM running for 10.895)
+2017-05-16 23:44:23.057  INFO 7652 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-05-16 23:44:23.095 DEBUG 7652 --- [http-nio-8080-exec-3] hotelservice.HotelDataController         : Loading data from datasource...
+2017-05-16 23:44:23.101 DEBUG 7652 --- [http-nio-8080-exec-3] hotelservice.HotelDataController         : Done loading data from datasource.
+2017-05-16 23:44:23.141 DEBUG 7652 --- [http-nio-8080-exec-3] hotelservice.HotelDataController         : returning 0 data sets
+2017-05-16 23:44:36.789 DEBUG 7652 --- [http-nio-8080-exec-7] hotelservice.HotelDataController         : returning 6 data sets
+2017-05-16 23:45:20.998 DEBUG 7652 --- [http-nio-8080-exec-6] hotelservice.HotelDataController         : returning 6 data sets
+2017-05-16 23:45:41.367 DEBUG 7652 --- [http-nio-8080-exec-10] hotelservice.HotelDataController         : returning 6 data sets
+2017-05-16 23:45:48.712 DEBUG 7652 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : returning 6 data sets
+2017-05-16 23:56:00.172  INFO 7652 --- [Thread-3] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6b37153c: startup date [Tue May 16 23:44:04 EDT 2017]; root of context hierarchy
+2017-05-16 23:56:00.177  INFO 7652 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-05-16 23:56:35.102  INFO 456 --- [main] hotelservice.Application                 : Starting Application on DELL with PID 456 (C:\workspace3\HotelAPI-master\target\classes started by junli in C:\workspace3\HotelAPI-master)
+2017-05-16 23:56:35.105 DEBUG 456 --- [main] hotelservice.Application                 : Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-05-16 23:56:35.106  INFO 456 --- [main] hotelservice.Application                 : No active profile set, falling back to default profiles: default
+2017-05-16 23:56:35.135  INFO 456 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@44f783dc: startup date [Tue May 16 23:56:35 EDT 2017]; root of context hierarchy
+2017-05-16 23:56:35.908  INFO 456 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-05-16 23:56:35.921  INFO 456 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-05-16 23:56:35.923  INFO 456 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-05-16 23:56:35.992  INFO 456 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-05-16 23:56:36.091  INFO 456 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-05-16 23:56:36.096  INFO 456 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-05-16 23:56:36.098  INFO 456 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-05-16 23:56:36.098  INFO 456 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-05-16 23:56:36.099  INFO 456 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-05-16 23:56:36.425  INFO 456 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-05-16 23:56:36.472  INFO 456 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-05-16 23:56:36.477  INFO 456 --- [main] hotelservice.Application                 : Started Application in 1.641 seconds (JVM running for 4.101)
+2017-05-16 23:56:51.607  INFO 456 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-05-16 23:56:51.646 DEBUG 456 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : getHotel() request. cityid: [all] sort: [desc]
+2017-05-16 23:56:51.650 DEBUG 456 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : Loading data from datasource...
+2017-05-16 23:56:51.653 DEBUG 456 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : Done loading data from datasource.
+2017-05-16 23:56:51.656 DEBUG 456 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : getHotel() returning 26 data sets
+2017-05-16 23:57:05.494 DEBUG 456 --- [http-nio-8080-exec-2] hotelservice.HotelDataController         : getHotel() request. cityid: [amsterdam] sort: [desc]
+2017-05-16 23:57:05.502 DEBUG 456 --- [http-nio-8080-exec-2] hotelservice.HotelDataController         : getHotel() returning 6 data sets
+2017-05-16 23:58:23.558 DEBUG 456 --- [http-nio-8080-exec-4] hotelservice.HotelDataController         : getHotel() request. cityid: [bankok] sort: [asc]
+2017-05-16 23:58:23.558 DEBUG 456 --- [http-nio-8080-exec-4] hotelservice.HotelDataController         : getHotel() returning 0 data sets
+2017-05-16 23:59:25.751 DEBUG 456 --- [http-nio-8080-exec-6] hotelservice.HotelDataController         : getHotel() request. cityid: [bangkok] sort: [asc]
+2017-05-16 23:59:25.752 DEBUG 456 --- [http-nio-8080-exec-6] hotelservice.HotelDataController         : getHotel() returning 7 data sets
+2017-05-17 21:26:18.373  INFO 156 --- [main] hotelservice.Application                 : Starting Application on DELL with PID 156 (C:\workspace3\HotelAPI\target\classes started by junli in C:\workspace3\HotelAPI)
+2017-05-17 21:26:18.405 DEBUG 156 --- [main] hotelservice.Application                 : Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-05-17 21:26:18.405  INFO 156 --- [main] hotelservice.Application                 : No active profile set, falling back to default profiles: default
+2017-05-17 21:26:18.514  INFO 156 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5208520c: startup date [Wed May 17 21:26:18 EDT 2017]; root of context hierarchy
+2017-05-17 21:26:21.233  INFO 156 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-05-17 21:26:21.296  INFO 156 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-05-17 21:26:21.296  INFO 156 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-05-17 21:26:21.795  INFO 156 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-05-17 21:26:21.967  INFO 156 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-05-17 21:26:21.983  INFO 156 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-05-17 21:26:21.983  INFO 156 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-05-17 21:26:21.983  INFO 156 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-05-17 21:26:21.983  INFO 156 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-05-17 21:26:22.546  INFO 156 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-05-17 21:26:22.733  INFO 156 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-05-17 21:26:22.749  INFO 156 --- [main] hotelservice.Application                 : Started Application in 5.579 seconds (JVM running for 13.098)
+2017-05-17 21:26:41.501  INFO 156 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-05-17 21:27:29.344  INFO 156 --- [Thread-3] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5208520c: startup date [Wed May 17 21:26:18 EDT 2017]; root of context hierarchy
+2017-05-17 21:27:29.344  INFO 156 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-05-17 21:28:40.411  INFO 5848 --- [main] hotelservice.Application                 : Starting Application on DELL with PID 5848 (C:\workspace3\HotelAPI-master\target\classes started by junli in C:\workspace3\HotelAPI-master)
+2017-05-17 21:28:40.411 DEBUG 5848 --- [main] hotelservice.Application                 : Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-05-17 21:28:40.411  INFO 5848 --- [main] hotelservice.Application                 : No active profile set, falling back to default profiles: default
+2017-05-17 21:28:40.442  INFO 5848 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@68719ac3: startup date [Wed May 17 21:28:40 EDT 2017]; root of context hierarchy
+2017-05-17 21:28:41.333  INFO 5848 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-05-17 21:28:41.349  INFO 5848 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-05-17 21:28:41.349  INFO 5848 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-05-17 21:28:41.411  INFO 5848 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-05-17 21:28:41.536  INFO 5848 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-05-17 21:28:41.536  INFO 5848 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-05-17 21:28:41.536  INFO 5848 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-05-17 21:28:41.536  INFO 5848 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-05-17 21:28:41.536  INFO 5848 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-05-17 21:28:41.880  INFO 5848 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-05-17 21:28:41.927  INFO 5848 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-05-17 21:28:41.927  INFO 5848 --- [main] hotelservice.Application                 : Started Application in 1.719 seconds (JVM running for 5.005)
+2017-05-17 21:28:49.397  INFO 5848 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-05-17 21:28:57.289 DEBUG 5848 --- [http-nio-8080-exec-2] hotelservice.HotelDataController         : getHotel() request. cityid: [all] sort: [asc]
+2017-05-17 21:28:57.289 DEBUG 5848 --- [http-nio-8080-exec-2] hotelservice.HotelDataController         : Loading data from datasource...
+2017-05-17 21:28:57.289 DEBUG 5848 --- [http-nio-8080-exec-2] hotelservice.HotelDataController         : Done loading data from datasource.
+2017-05-17 21:28:57.305 DEBUG 5848 --- [http-nio-8080-exec-2] hotelservice.HotelDataController         : getHotel() returning 26 data sets
+2017-05-17 21:36:51.130  INFO 5848 --- [Thread-3] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@68719ac3: startup date [Wed May 17 21:28:40 EDT 2017]; root of context hierarchy
+2017-05-17 21:36:51.130  INFO 5848 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-05-17 22:05:27.979  INFO 9084 --- [main] hotelservice.HotelDataControllerTests    : Starting HotelDataControllerTests on DELL with PID 9084 (started by junli in C:\workspace3\HotelAPI)
+2017-05-17 22:05:27.980 DEBUG 9084 --- [main] hotelservice.HotelDataControllerTests    : Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-05-17 22:05:27.980  INFO 9084 --- [main] hotelservice.HotelDataControllerTests    : No active profile set, falling back to default profiles: default
+2017-05-17 22:05:28.724  INFO 9084 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2017-05-17 22:05:28.728  INFO 9084 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2017-05-17 22:05:29.038  INFO 9084 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 310 ms
+2017-05-17 22:05:29.159  INFO 9084 --- [main] hotelservice.HotelDataControllerTests    : Started HotelDataControllerTests in 1.361 seconds (JVM running for 1.868)
+2017-05-17 22:05:29.219 DEBUG 9084 --- [main] hotelservice.HotelDataController         : getHotel() request. cityid: [all] sort: [asc] reload: [n]
+2017-05-17 22:05:29.224 DEBUG 9084 --- [main] hotelservice.HotelDataController         : Loading data from datasource...
+2017-05-17 22:05:29.224 DEBUG 9084 --- [main] hotelservice.HotelDataController         : Done loading data from datasource.
+2017-05-17 22:05:29.225 DEBUG 9084 --- [main] hotelservice.HotelDataController         : getHotel() returning 20 data sets
+2017-05-17 22:05:45.482  INFO 11984 --- [main] hotelservice.Application                 : Starting Application on DELL with PID 11984 (C:\workspace3\HotelAPI\target\classes started by junli in C:\workspace3\HotelAPI)
+2017-05-17 22:05:45.484 DEBUG 11984 --- [main] hotelservice.Application                 : Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-05-17 22:05:45.485  INFO 11984 --- [main] hotelservice.Application                 : No active profile set, falling back to default profiles: default
+2017-05-17 22:05:45.517  INFO 11984 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@56cf9bac: startup date [Wed May 17 22:05:45 EDT 2017]; root of context hierarchy
+2017-05-17 22:05:46.318  INFO 11984 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-05-17 22:05:46.330  INFO 11984 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-05-17 22:05:46.331  INFO 11984 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-05-17 22:05:46.398  INFO 11984 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-05-17 22:05:46.498  INFO 11984 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-05-17 22:05:46.502  INFO 11984 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-05-17 22:05:46.504  INFO 11984 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-05-17 22:05:46.505  INFO 11984 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-05-17 22:05:46.506  INFO 11984 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-05-17 22:05:46.824  INFO 11984 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-05-17 22:05:46.864  INFO 11984 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-05-17 22:05:46.870  INFO 11984 --- [main] hotelservice.Application                 : Started Application in 1.65 seconds (JVM running for 3.901)
+2017-05-17 22:07:00.641  INFO 11984 --- [Thread-3] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@56cf9bac: startup date [Wed May 17 22:05:45 EDT 2017]; root of context hierarchy
+2017-05-17 22:07:00.652  INFO 11984 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-05-17 22:07:12.739  INFO 17776 --- [main] hotelservice.HotelDataControllerTests    : Starting HotelDataControllerTests on DELL with PID 17776 (started by junli in C:\workspace3\HotelAPI)
+2017-05-17 22:07:12.740 DEBUG 17776 --- [main] hotelservice.HotelDataControllerTests    : Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-05-17 22:07:12.741  INFO 17776 --- [main] hotelservice.HotelDataControllerTests    : No active profile set, falling back to default profiles: default
+2017-05-17 22:07:13.478  INFO 17776 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2017-05-17 22:07:13.479  INFO 17776 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2017-05-17 22:07:13.760  INFO 17776 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 281 ms
+2017-05-17 22:07:13.863  INFO 17776 --- [main] hotelservice.HotelDataControllerTests    : Started HotelDataControllerTests in 1.304 seconds (JVM running for 1.8)
+2017-05-17 22:07:13.916 DEBUG 17776 --- [main] hotelservice.HotelDataController         : getHotel() request. cityid: [all] sort: [asc] reload: [n]
+2017-05-17 22:07:13.921 DEBUG 17776 --- [main] hotelservice.HotelDataController         : Loading data from datasource...
+2017-05-17 22:07:13.925 ERROR 17776 --- [main] hotelservice.HotelDataController         : Wrong data format:CITY,HOTELID,ROOM,PRICE
+
+java.lang.NumberFormatException: For input string: "HOTELID"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) ~[na:1.8.0_91]
+	at java.lang.Integer.parseInt(Integer.java:580) ~[na:1.8.0_91]
+	at java.lang.Integer.parseInt(Integer.java:615) ~[na:1.8.0_91]
+	at hotelservice.HotelDataController.loadHotelData(HotelDataController.java:100) [classes/:na]
+	at hotelservice.HotelDataController.getHotelData(HotelDataController.java:75) [classes/:na]
+	at hotelservice.HotelDataController.getHotel(HotelDataController.java:51) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:65) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:167) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:134) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:134) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:134) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:134) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:134) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:155) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at hotelservice.HotelDataControllerTests.noParamGreetingShouldReturnDefaultMessage(HotelDataControllerTests.java:31) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283) [surefire-junit4-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173) [surefire-junit4-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153) [surefire-junit4-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128) [surefire-junit4-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203) [surefire-booter-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155) [surefire-booter-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103) [surefire-booter-2.18.1.jar:2.18.1]
+
+2017-05-17 22:07:13.927 DEBUG 17776 --- [main] hotelservice.HotelDataController         : Done loading data from datasource.
+2017-05-17 22:07:13.927 DEBUG 17776 --- [main] hotelservice.HotelDataController         : getHotel() returning 20 data sets
+2017-05-17 22:07:19.587  INFO 10912 --- [main] hotelservice.Application                 : Starting Application on DELL with PID 10912 (C:\workspace3\HotelAPI\target\classes started by junli in C:\workspace3\HotelAPI)
+2017-05-17 22:07:19.590 DEBUG 10912 --- [main] hotelservice.Application                 : Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-05-17 22:07:19.591  INFO 10912 --- [main] hotelservice.Application                 : No active profile set, falling back to default profiles: default
+2017-05-17 22:07:19.621  INFO 10912 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@612d0a7: startup date [Wed May 17 22:07:19 EDT 2017]; root of context hierarchy
+2017-05-17 22:07:20.410  INFO 10912 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-05-17 22:07:20.426  INFO 10912 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-05-17 22:07:20.427  INFO 10912 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-05-17 22:07:20.493  INFO 10912 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-05-17 22:07:20.595  INFO 10912 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-05-17 22:07:20.600  INFO 10912 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-05-17 22:07:20.601  INFO 10912 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-05-17 22:07:20.601  INFO 10912 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-05-17 22:07:20.602  INFO 10912 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-05-17 22:07:20.941  INFO 10912 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-05-17 22:07:20.987  INFO 10912 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-05-17 22:07:20.992  INFO 10912 --- [main] hotelservice.Application                 : Started Application in 1.683 seconds (JVM running for 3.927)
+2017-05-17 22:16:56.896  INFO 10912 --- [Thread-3] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@612d0a7: startup date [Wed May 17 22:07:19 EDT 2017]; root of context hierarchy
+2017-05-17 22:16:56.907  INFO 10912 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-05-17 22:17:09.448  INFO 17028 --- [main] hotelservice.HotelDataControllerTests    : Starting HotelDataControllerTests on DELL with PID 17028 (started by junli in C:\workspace3\HotelAPI)
+2017-05-17 22:17:09.448 DEBUG 17028 --- [main] hotelservice.HotelDataControllerTests    : Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-05-17 22:17:09.449  INFO 17028 --- [main] hotelservice.HotelDataControllerTests    : No active profile set, falling back to default profiles: default
+2017-05-17 22:17:10.218  INFO 17028 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2017-05-17 22:17:10.222  INFO 17028 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2017-05-17 22:17:10.525  INFO 17028 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 303 ms
+2017-05-17 22:17:10.645  INFO 17028 --- [main] hotelservice.HotelDataControllerTests    : Started HotelDataControllerTests in 1.383 seconds (JVM running for 1.893)
+2017-05-17 22:17:10.716 DEBUG 17028 --- [main] hotelservice.HotelDataController         : getHotel() request. cityid: [all] sort: [asc] reload: [n]
+2017-05-17 22:17:10.720 DEBUG 17028 --- [main] hotelservice.HotelDataController         : Loading data from datasource...
+2017-05-17 22:17:10.726 ERROR 17028 --- [main] hotelservice.HotelDataController         : Wrong data format:CITY,HOTELID,ROOM,PRICE
+
+java.lang.NumberFormatException: For input string: "HOTELID"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) ~[na:1.8.0_91]
+	at java.lang.Integer.parseInt(Integer.java:580) ~[na:1.8.0_91]
+	at java.lang.Integer.parseInt(Integer.java:615) ~[na:1.8.0_91]
+	at hotelservice.HotelDataController.loadHotelData(HotelDataController.java:102) [classes/:na]
+	at hotelservice.HotelDataController.getHotelData(HotelDataController.java:77) [classes/:na]
+	at hotelservice.HotelDataController.getHotel(HotelDataController.java:53) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:65) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:167) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:134) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:134) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:134) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:134) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:134) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:155) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at hotelservice.HotelDataControllerTests.noParamGreetingShouldReturnDefaultMessage(HotelDataControllerTests.java:31) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191) [spring-test-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283) [surefire-junit4-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173) [surefire-junit4-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153) [surefire-junit4-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128) [surefire-junit4-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203) [surefire-booter-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155) [surefire-booter-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103) [surefire-booter-2.18.1.jar:2.18.1]
+
+2017-05-17 22:17:10.728 DEBUG 17028 --- [main] hotelservice.HotelDataController         : Done loading data from datasource.
+2017-05-17 22:17:10.728 DEBUG 17028 --- [main] hotelservice.HotelDataController         : getHotel() returning 20 data sets
+2017-05-17 22:17:32.314  INFO 15288 --- [main] hotelservice.Application                 : Starting Application on DELL with PID 15288 (C:\workspace3\HotelAPI\target\classes started by junli in C:\workspace3\HotelAPI)
+2017-05-17 22:17:32.317 DEBUG 15288 --- [main] hotelservice.Application                 : Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-05-17 22:17:32.318  INFO 15288 --- [main] hotelservice.Application                 : No active profile set, falling back to default profiles: default
+2017-05-17 22:17:32.350  INFO 15288 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4ead6c4c: startup date [Wed May 17 22:17:32 EDT 2017]; root of context hierarchy
+2017-05-17 22:17:33.171  INFO 15288 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-05-17 22:17:33.191  INFO 15288 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-05-17 22:17:33.192  INFO 15288 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-05-17 22:17:33.253  INFO 15288 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-05-17 22:17:33.358  INFO 15288 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-05-17 22:17:33.363  INFO 15288 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-05-17 22:17:33.364  INFO 15288 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-05-17 22:17:33.365  INFO 15288 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-05-17 22:17:33.365  INFO 15288 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-05-17 22:17:33.720  INFO 15288 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-05-17 22:17:33.766  INFO 15288 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-05-17 22:17:33.771  INFO 15288 --- [main] hotelservice.Application                 : Started Application in 1.726 seconds (JVM running for 3.986)
+2017-05-17 22:17:46.957  INFO 15288 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-05-17 22:17:46.996 DEBUG 15288 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : getHotel() request. cityid: [all] sort: [asc] reload: [n]
+2017-05-17 22:17:47.002 DEBUG 15288 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : Loading data from datasource...
+2017-05-17 22:17:47.007 ERROR 15288 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : Wrong data format:CITY,HOTELID,ROOM,PRICE
+
+java.lang.NumberFormatException: For input string: "HOTELID"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) ~[na:1.8.0_91]
+	at java.lang.Integer.parseInt(Integer.java:580) ~[na:1.8.0_91]
+	at java.lang.Integer.parseInt(Integer.java:615) ~[na:1.8.0_91]
+	at hotelservice.HotelDataController.loadHotelData(HotelDataController.java:102) [classes/:na]
+	at hotelservice.HotelDataController.getHotelData(HotelDataController.java:77) [classes/:na]
+	at hotelservice.HotelDataController.getHotel(HotelDataController.java:53) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-embed-websocket-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_91]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_91]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_91]
+
+2017-05-17 22:17:47.035 DEBUG 15288 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : Done loading data from datasource.
+2017-05-17 22:17:47.036 DEBUG 15288 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : getHotel() returning 20 data sets
+2017-05-17 22:18:51.057 DEBUG 15288 --- [http-nio-8080-exec-3] hotelservice.HotelDataController         : getHotel() request. cityid: [all] sort: [asc] reload: [n]
+2017-05-17 22:18:51.063 DEBUG 15288 --- [http-nio-8080-exec-3] hotelservice.HotelDataController         : getHotel() returning 20 data sets
+2017-05-17 22:21:27.681  INFO 15288 --- [Thread-3] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4ead6c4c: startup date [Wed May 17 22:17:32 EDT 2017]; root of context hierarchy
+2017-05-17 22:21:27.697  INFO 15288 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-05-17 22:21:39.699  INFO 17312 --- [main] hotelservice.Application                 : Starting Application on DELL with PID 17312 (C:\workspace3\HotelAPI\target\classes started by junli in C:\workspace3\HotelAPI)
+2017-05-17 22:21:39.703 DEBUG 17312 --- [main] hotelservice.Application                 : Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-05-17 22:21:39.704  INFO 17312 --- [main] hotelservice.Application                 : No active profile set, falling back to default profiles: default
+2017-05-17 22:21:39.750  INFO 17312 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5bfa13ae: startup date [Wed May 17 22:21:39 EDT 2017]; root of context hierarchy
+2017-05-17 22:21:40.543  INFO 17312 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-05-17 22:21:40.556  INFO 17312 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-05-17 22:21:40.557  INFO 17312 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-05-17 22:21:40.624  INFO 17312 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-05-17 22:21:40.722  INFO 17312 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-05-17 22:21:40.727  INFO 17312 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-05-17 22:21:40.728  INFO 17312 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-05-17 22:21:40.729  INFO 17312 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-05-17 22:21:40.730  INFO 17312 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-05-17 22:21:41.083  INFO 17312 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-05-17 22:21:41.130  INFO 17312 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-05-17 22:21:41.134  INFO 17312 --- [main] hotelservice.Application                 : Started Application in 1.645 seconds (JVM running for 4.599)
+2017-05-17 22:21:48.972  INFO 17312 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-05-17 22:25:45.121  INFO 17312 --- [Thread-3] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5bfa13ae: startup date [Wed May 17 22:21:39 EDT 2017]; root of context hierarchy
+2017-05-17 22:25:45.126  INFO 17312 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-05-17 22:25:57.468  INFO 18108 --- [main] hotelservice.HotelDataControllerTests    : Starting HotelDataControllerTests on DELL with PID 18108 (started by junli in C:\workspace3\HotelAPI)
+2017-05-17 22:25:57.470 DEBUG 18108 --- [main] hotelservice.HotelDataControllerTests    : Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-05-17 22:25:57.470  INFO 18108 --- [main] hotelservice.HotelDataControllerTests    : No active profile set, falling back to default profiles: default
+2017-05-17 22:25:58.208  INFO 18108 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2017-05-17 22:25:58.208  INFO 18108 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2017-05-17 22:25:58.489  INFO 18108 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 281 ms
+2017-05-17 22:25:58.598  INFO 18108 --- [main] hotelservice.HotelDataControllerTests    : Started HotelDataControllerTests in 1.312 seconds (JVM running for 1.811)
+2017-05-17 22:25:58.652 DEBUG 18108 --- [main] hotelservice.HotelDataController         : getHotel() request. cityid: [all] sort: [null] reload: [n]
+2017-05-17 22:25:58.655 DEBUG 18108 --- [main] hotelservice.HotelDataController         : Loading data from datasource...
+2017-05-17 22:25:58.656  INFO 18108 --- [main] hotelservice.HotelDataController         : Wrong data format:CITY,HOTELID,ROOM,PRICE
+2017-05-17 22:25:58.657 DEBUG 18108 --- [main] hotelservice.HotelDataController         : Done loading data from datasource.
+2017-05-17 22:25:58.657 DEBUG 18108 --- [main] hotelservice.HotelDataController         : getHotel() returning 20 data sets
+2017-05-17 22:26:12.036  INFO 10812 --- [main] hotelservice.Application                 : Starting Application on DELL with PID 10812 (C:\workspace3\HotelAPI\target\classes started by junli in C:\workspace3\HotelAPI)
+2017-05-17 22:26:12.039 DEBUG 10812 --- [main] hotelservice.Application                 : Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-05-17 22:26:12.041  INFO 10812 --- [main] hotelservice.Application                 : No active profile set, falling back to default profiles: default
+2017-05-17 22:26:12.070  INFO 10812 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@612d0a7: startup date [Wed May 17 22:26:12 EDT 2017]; root of context hierarchy
+2017-05-17 22:26:12.882  INFO 10812 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-05-17 22:26:12.895  INFO 10812 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-05-17 22:26:12.896  INFO 10812 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-05-17 22:26:12.963  INFO 10812 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-05-17 22:26:13.064  INFO 10812 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-05-17 22:26:13.068  INFO 10812 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-05-17 22:26:13.069  INFO 10812 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-05-17 22:26:13.070  INFO 10812 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-05-17 22:26:13.071  INFO 10812 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-05-17 22:26:13.416  INFO 10812 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-05-17 22:26:13.457  INFO 10812 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-05-17 22:26:13.462  INFO 10812 --- [main] hotelservice.Application                 : Started Application in 1.698 seconds (JVM running for 3.95)
+2017-05-17 22:26:26.943  INFO 10812 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-05-17 22:26:26.980 DEBUG 10812 --- [http-nio-8080-exec-2] hotelservice.HotelDataController         : getHotel() request. cityid: [amsterdam] sort: [null] reload: [n]
+2017-05-17 22:26:26.984 DEBUG 10812 --- [http-nio-8080-exec-2] hotelservice.HotelDataController         : Loading data from datasource...
+2017-05-17 22:26:26.986  INFO 10812 --- [http-nio-8080-exec-2] hotelservice.HotelDataController         : Wrong data format:CITY,HOTELID,ROOM,PRICE
+2017-05-17 22:26:26.991 DEBUG 10812 --- [http-nio-8080-exec-2] hotelservice.HotelDataController         : Done loading data from datasource.
+2017-05-17 22:26:27.035 DEBUG 10812 --- [http-nio-8080-exec-2] hotelservice.HotelDataController         : getHotel() returning 6 data sets
+2017-05-17 22:26:38.202 DEBUG 10812 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : getHotel() request. cityid: [all] sort: [null] reload: [n]
+2017-05-17 22:26:38.206 DEBUG 10812 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : getHotel() returning 20 data sets
+2017-05-17 22:26:52.104 DEBUG 10812 --- [http-nio-8080-exec-3] hotelservice.HotelDataController         : getHotel() request. cityid: [all] sort: [asc] reload: [n]
+2017-05-17 22:26:52.108 DEBUG 10812 --- [http-nio-8080-exec-3] hotelservice.HotelDataController         : getHotel() returning 20 data sets
+2017-05-17 22:26:59.001 DEBUG 10812 --- [http-nio-8080-exec-4] hotelservice.HotelDataController         : getHotel() request. cityid: [all] sort: [desc] reload: [n]
+2017-05-17 22:26:59.005 DEBUG 10812 --- [http-nio-8080-exec-4] hotelservice.HotelDataController         : getHotel() returning 20 data sets
+2017-05-17 22:28:01.879 DEBUG 10812 --- [http-nio-8080-exec-6] hotelservice.HotelDataController         : getHotel() request. cityid: [all] sort: [desc] reload: [y]
+2017-05-17 22:28:01.881 DEBUG 10812 --- [http-nio-8080-exec-6] hotelservice.HotelDataController         : Loading data from datasource...
+2017-05-17 22:28:01.884  INFO 10812 --- [http-nio-8080-exec-6] hotelservice.HotelDataController         : Wrong data format:CITY,HOTELID,ROOM,PRICE
+2017-05-17 22:28:01.885 DEBUG 10812 --- [http-nio-8080-exec-6] hotelservice.HotelDataController         : Done loading data from datasource.
+2017-05-17 22:28:01.890 DEBUG 10812 --- [http-nio-8080-exec-6] hotelservice.HotelDataController         : getHotel() returning 20 data sets
+2017-05-17 22:28:57.350 DEBUG 10812 --- [http-nio-8080-exec-7] hotelservice.HotelDataController         : getHotel() request. cityid: [all] sort: [desc] reload: [y]
+2017-05-17 22:28:57.352 DEBUG 10812 --- [http-nio-8080-exec-7] hotelservice.HotelDataController         : Loading data from datasource...
+2017-05-17 22:28:57.355  INFO 10812 --- [http-nio-8080-exec-7] hotelservice.HotelDataController         : Wrong data format:CITY,HOTELID,ROOM,PRICE
+2017-05-17 22:28:57.359 DEBUG 10812 --- [http-nio-8080-exec-7] hotelservice.HotelDataController         : Done loading data from datasource.
+2017-05-17 22:28:57.366 ERROR 10812 --- [http-nio-8080-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IndexOutOfBoundsException: toIndex = 20] with root cause
+
+java.lang.IndexOutOfBoundsException: toIndex = 20
+	at java.util.ArrayList.subListRangeCheck(ArrayList.java:1004) ~[na:1.8.0_91]
+	at java.util.ArrayList.subList(ArrayList.java:996) ~[na:1.8.0_91]
+	at hotelservice.HotelDataController.getHotelData(HotelDataController.java:80) ~[classes/:na]
+	at hotelservice.HotelDataController.getHotel(HotelDataController.java:53) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_91]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_91]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_91]
+
+2017-05-17 22:30:48.655  INFO 10812 --- [Thread-3] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@612d0a7: startup date [Wed May 17 22:26:12 EDT 2017]; root of context hierarchy
+2017-05-17 22:30:48.658  INFO 10812 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-05-17 22:31:00.995  INFO 14392 --- [main] hotelservice.Application                 : Starting Application on DELL with PID 14392 (C:\workspace3\HotelAPI\target\classes started by junli in C:\workspace3\HotelAPI)
+2017-05-17 22:31:00.999 DEBUG 14392 --- [main] hotelservice.Application                 : Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-05-17 22:31:01.000  INFO 14392 --- [main] hotelservice.Application                 : No active profile set, falling back to default profiles: default
+2017-05-17 22:31:01.050  INFO 14392 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@d64406e: startup date [Wed May 17 22:31:01 EDT 2017]; root of context hierarchy
+2017-05-17 22:31:01.854  INFO 14392 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-05-17 22:31:01.871  INFO 14392 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-05-17 22:31:01.872  INFO 14392 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-05-17 22:31:01.938  INFO 14392 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-05-17 22:31:02.044  INFO 14392 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-05-17 22:31:02.049  INFO 14392 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-05-17 22:31:02.050  INFO 14392 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-05-17 22:31:02.052  INFO 14392 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-05-17 22:31:02.052  INFO 14392 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-05-17 22:31:02.400  INFO 14392 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-05-17 22:31:02.445  INFO 14392 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-05-17 22:31:02.450  INFO 14392 --- [main] hotelservice.Application                 : Started Application in 1.656 seconds (JVM running for 4.588)
+2017-05-17 22:31:54.673  INFO 14392 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-05-17 22:31:54.714 DEBUG 14392 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : getHotel() request. cityid: [all] sort: [desc] reload: [y]
+2017-05-17 22:31:54.719 DEBUG 14392 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : Loading data from datasource...
+2017-05-17 22:31:54.720  INFO 14392 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : Wrong data format:CITY,HOTELID,ROOM,PRICE
+2017-05-17 22:31:54.725 DEBUG 14392 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : Done loading data from datasource.
+2017-05-17 22:31:54.726 DEBUG 14392 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : getHotel() returning 20 data sets
+2017-05-17 22:32:24.989 DEBUG 14392 --- [http-nio-8080-exec-2] hotelservice.HotelDataController         : getHotel() request. cityid: [all] sort: [desc] reload: [y]
+2017-05-17 22:32:24.992 DEBUG 14392 --- [http-nio-8080-exec-2] hotelservice.HotelDataController         : Loading data from datasource...
+2017-05-17 22:32:24.996  INFO 14392 --- [http-nio-8080-exec-2] hotelservice.HotelDataController         : Wrong data format:CITY,HOTELID,ROOM,PRICE
+2017-05-17 22:32:24.997 DEBUG 14392 --- [http-nio-8080-exec-2] hotelservice.HotelDataController         : Done loading data from datasource.
+2017-05-17 22:32:24.998 DEBUG 14392 --- [http-nio-8080-exec-2] hotelservice.HotelDataController         : getHotel() returning 8 data sets
+2017-05-17 22:32:39.896 DEBUG 14392 --- [http-nio-8080-exec-3] hotelservice.HotelDataController         : getHotel() request. cityid: [all] sort: [desc] reload: [n]
+2017-05-17 22:32:39.900 DEBUG 14392 --- [http-nio-8080-exec-3] hotelservice.HotelDataController         : getHotel() returning 8 data sets
+2017-05-17 22:32:48.311 DEBUG 14392 --- [http-nio-8080-exec-4] hotelservice.HotelDataController         : getHotel() request. cityid: [all] sort: [desc] reload: [y]
+2017-05-17 22:32:48.315 DEBUG 14392 --- [http-nio-8080-exec-4] hotelservice.HotelDataController         : Loading data from datasource...
+2017-05-17 22:32:48.319  INFO 14392 --- [http-nio-8080-exec-4] hotelservice.HotelDataController         : Wrong data format:CITY,HOTELID,ROOM,PRICE
+2017-05-17 22:32:48.323 DEBUG 14392 --- [http-nio-8080-exec-4] hotelservice.HotelDataController         : Done loading data from datasource.
+2017-05-17 22:32:48.324 DEBUG 14392 --- [http-nio-8080-exec-4] hotelservice.HotelDataController         : getHotel() returning 20 data sets
+2017-05-17 22:32:57.641 DEBUG 14392 --- [http-nio-8080-exec-5] hotelservice.HotelDataController         : getHotel() request. cityid: [all] sort: [asc] reload: [y]
+2017-05-17 22:32:57.646 DEBUG 14392 --- [http-nio-8080-exec-5] hotelservice.HotelDataController         : Loading data from datasource...
+2017-05-17 22:32:57.649  INFO 14392 --- [http-nio-8080-exec-5] hotelservice.HotelDataController         : Wrong data format:CITY,HOTELID,ROOM,PRICE
+2017-05-17 22:32:57.650 DEBUG 14392 --- [http-nio-8080-exec-5] hotelservice.HotelDataController         : Done loading data from datasource.
+2017-05-17 22:32:57.653 DEBUG 14392 --- [http-nio-8080-exec-5] hotelservice.HotelDataController         : getHotel() returning 20 data sets
+2017-05-17 22:36:16.769  INFO 14392 --- [Thread-3] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@d64406e: startup date [Wed May 17 22:31:01 EDT 2017]; root of context hierarchy
+2017-05-17 22:36:16.781  INFO 14392 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-05-17 22:36:25.608  INFO 6040 --- [main] hotelservice.Application                 : Starting Application on DELL with PID 6040 (C:\workspace3\HotelAPI\target\classes started by junli in C:\workspace3\HotelAPI)
+2017-05-17 22:36:25.612 DEBUG 6040 --- [main] hotelservice.Application                 : Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-05-17 22:36:25.613  INFO 6040 --- [main] hotelservice.Application                 : No active profile set, falling back to default profiles: default
+2017-05-17 22:36:25.656  INFO 6040 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@445d9ee1: startup date [Wed May 17 22:36:25 EDT 2017]; root of context hierarchy
+2017-05-17 22:36:26.446  INFO 6040 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-05-17 22:36:26.459  INFO 6040 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-05-17 22:36:26.460  INFO 6040 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-05-17 22:36:26.526  INFO 6040 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-05-17 22:36:26.631  INFO 6040 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-05-17 22:36:26.636  INFO 6040 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-05-17 22:36:26.637  INFO 6040 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-05-17 22:36:26.638  INFO 6040 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-05-17 22:36:26.638  INFO 6040 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-05-17 22:36:27.010  INFO 6040 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-05-17 22:36:27.061  INFO 6040 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-05-17 22:36:27.067  INFO 6040 --- [main] hotelservice.Application                 : Started Application in 1.664 seconds (JVM running for 4.609)
+2017-05-17 22:38:27.967  INFO 6040 --- [Thread-3] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@445d9ee1: startup date [Wed May 17 22:36:25 EDT 2017]; root of context hierarchy
+2017-05-17 22:38:27.973  INFO 6040 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-05-17 22:38:39.107  INFO 3956 --- [main] hotelservice.Application                 : Starting Application on DELL with PID 3956 (C:\workspace3\HotelAPI\target\classes started by junli in C:\workspace3\HotelAPI)
+2017-05-17 22:38:39.112 DEBUG 3956 --- [main] hotelservice.Application                 : Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-05-17 22:38:39.113  INFO 3956 --- [main] hotelservice.Application                 : No active profile set, falling back to default profiles: default
+2017-05-17 22:38:39.149  INFO 3956 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5168f91a: startup date [Wed May 17 22:38:39 EDT 2017]; root of context hierarchy
+2017-05-17 22:38:39.957  INFO 3956 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-05-17 22:38:39.970  INFO 3956 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-05-17 22:38:39.971  INFO 3956 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-05-17 22:38:40.035  INFO 3956 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-05-17 22:38:40.135  INFO 3956 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-05-17 22:38:40.139  INFO 3956 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-05-17 22:38:40.140  INFO 3956 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-05-17 22:38:40.142  INFO 3956 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-05-17 22:38:40.143  INFO 3956 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-05-17 22:38:40.484  INFO 3956 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-05-17 22:38:40.534  INFO 3956 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-05-17 22:38:40.538  INFO 3956 --- [main] hotelservice.Application                 : Started Application in 1.646 seconds (JVM running for 4.529)
+2017-05-17 22:38:59.718  INFO 3956 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-05-17 22:38:59.758 DEBUG 3956 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : getHotel() request. cityid: [all] sort: [asc] reload: [N]
+2017-05-17 22:38:59.763 DEBUG 3956 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : Loading data from datasource...
+2017-05-17 22:38:59.766  INFO 3956 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : Wrong data format:CITY,HOTELID,ROOM,PRICE
+2017-05-17 22:38:59.772  INFO 3956 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : Wrong data format:CITY,HOTELID,ROOM,PRICE
+2017-05-17 22:38:59.773 DEBUG 3956 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : Done loading data from datasource. Total # of lines processed: 54
+2017-05-17 22:38:59.773 DEBUG 3956 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : getHotel() returning 45 data sets
+2017-05-17 22:49:04.737  INFO 3956 --- [Thread-3] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5168f91a: startup date [Wed May 17 22:38:39 EDT 2017]; root of context hierarchy
+2017-05-17 22:49:04.748  INFO 3956 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-05-17 22:49:10.576  INFO 10064 --- [main] hotelservice.Application                 : Starting Application on DELL with PID 10064 (C:\workspace3\HotelAPI\target\classes started by junli in C:\workspace3\HotelAPI)
+2017-05-17 22:49:10.579 DEBUG 10064 --- [main] hotelservice.Application                 : Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-05-17 22:49:10.580  INFO 10064 --- [main] hotelservice.Application                 : No active profile set, falling back to default profiles: default
+2017-05-17 22:49:10.610  INFO 10064 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@441fbecd: startup date [Wed May 17 22:49:10 EDT 2017]; root of context hierarchy
+2017-05-17 22:49:11.378  INFO 10064 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-05-17 22:49:11.391  INFO 10064 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-05-17 22:49:11.392  INFO 10064 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-05-17 22:49:11.456  INFO 10064 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-05-17 22:49:11.554  INFO 10064 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-05-17 22:49:11.558  INFO 10064 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-05-17 22:49:11.559  INFO 10064 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-05-17 22:49:11.560  INFO 10064 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-05-17 22:49:11.561  INFO 10064 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-05-17 22:49:11.893  INFO 10064 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-05-17 22:49:11.938  INFO 10064 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-05-17 22:49:11.943  INFO 10064 --- [main] hotelservice.Application                 : Started Application in 1.643 seconds (JVM running for 3.92)
+2017-05-17 22:49:19.009  INFO 10064 --- [Thread-3] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@441fbecd: startup date [Wed May 17 22:49:10 EDT 2017]; root of context hierarchy
+2017-05-17 22:49:19.017  INFO 10064 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-05-17 22:49:30.823  INFO 3208 --- [main] hotelservice.HotelDataControllerTests    : Starting HotelDataControllerTests on DELL with PID 3208 (started by junli in C:\workspace3\HotelAPI)
+2017-05-17 22:49:30.825 DEBUG 3208 --- [main] hotelservice.HotelDataControllerTests    : Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-05-17 22:49:30.825  INFO 3208 --- [main] hotelservice.HotelDataControllerTests    : No active profile set, falling back to default profiles: default
+2017-05-17 22:49:31.560  INFO 3208 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2017-05-17 22:49:31.560  INFO 3208 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2017-05-17 22:49:31.850  INFO 3208 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 289 ms
+2017-05-17 22:49:31.957  INFO 3208 --- [main] hotelservice.HotelDataControllerTests    : Started HotelDataControllerTests in 1.314 seconds (JVM running for 1.819)
+2017-05-17 22:49:32.011 DEBUG 3208 --- [main] hotelservice.HotelDataController         : getHotel() request. cityid: [all] sort: [null] reload: [n]
+2017-05-17 22:49:32.015 DEBUG 3208 --- [main] hotelservice.HotelDataController         : Loading data from datasource...
+2017-05-17 22:49:32.015  INFO 3208 --- [main] hotelservice.HotelDataController         : Wrong data format:CITY,HOTELID,ROOM,PRICE
+2017-05-17 22:49:32.016  INFO 3208 --- [main] hotelservice.HotelDataController         : Wrong data format:CITY,HOTELID,ROOM,PRICE
+2017-05-17 22:49:32.016 DEBUG 3208 --- [main] hotelservice.HotelDataController         : Done loading data from datasource. Total # of lines processed: 54
+2017-05-17 22:49:32.021 DEBUG 3208 --- [main] hotelservice.HotelDataController         : getHotel() returning 26 data sets
+2017-05-17 22:49:43.609  INFO 6340 --- [main] hotelservice.Application                 : Starting Application on DELL with PID 6340 (C:\workspace3\HotelAPI\target\classes started by junli in C:\workspace3\HotelAPI)
+2017-05-17 22:49:43.612 DEBUG 6340 --- [main] hotelservice.Application                 : Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-05-17 22:49:43.613  INFO 6340 --- [main] hotelservice.Application                 : No active profile set, falling back to default profiles: default
+2017-05-17 22:49:43.642  INFO 6340 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@559d33a3: startup date [Wed May 17 22:49:43 EDT 2017]; root of context hierarchy
+2017-05-17 22:49:44.435  INFO 6340 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-05-17 22:49:44.450  INFO 6340 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-05-17 22:49:44.451  INFO 6340 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-05-17 22:49:44.519  INFO 6340 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-05-17 22:49:44.629  INFO 6340 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-05-17 22:49:44.633  INFO 6340 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-05-17 22:49:44.634  INFO 6340 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-05-17 22:49:44.635  INFO 6340 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-05-17 22:49:44.636  INFO 6340 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-05-17 22:49:44.973  INFO 6340 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-05-17 22:49:45.015  INFO 6340 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-05-17 22:49:45.020  INFO 6340 --- [main] hotelservice.Application                 : Started Application in 1.687 seconds (JVM running for 3.921)
+2017-05-17 22:49:54.532  INFO 6340 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-05-17 22:49:54.571 DEBUG 6340 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : getHotel() request. cityid: [all] sort: [asc] reload: [N]
+2017-05-17 22:49:54.576 DEBUG 6340 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : Loading data from datasource...
+2017-05-17 22:49:54.578  INFO 6340 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : Wrong data format:CITY,HOTELID,ROOM,PRICE
+2017-05-17 22:49:54.582  INFO 6340 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : Wrong data format:CITY,HOTELID,ROOM,PRICE
+2017-05-17 22:49:54.583 DEBUG 6340 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : Done loading data from datasource. Total # of lines processed: 54
+2017-05-17 22:49:54.584 DEBUG 6340 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : getHotel() returning 26 data sets
+2017-05-17 22:50:51.675 DEBUG 6340 --- [http-nio-8080-exec-2] hotelservice.HotelDataController         : getHotel() request. cityid: [bangkok] sort: [asc] reload: [N]
+2017-05-17 22:50:51.681 DEBUG 6340 --- [http-nio-8080-exec-2] hotelservice.HotelDataController         : getHotel() returning 7 data sets
+2017-05-17 22:51:16.118 DEBUG 6340 --- [http-nio-8080-exec-3] hotelservice.HotelDataController         : getHotel() request. cityid: [bangkok] sort: [null] reload: [n]
+2017-05-17 22:51:16.121 DEBUG 6340 --- [http-nio-8080-exec-3] hotelservice.HotelDataController         : getHotel() returning 7 data sets
+2017-05-17 22:52:08.940 DEBUG 6340 --- [http-nio-8080-exec-5] hotelservice.HotelDataController         : getHotel() request. cityid: [bangkok] sort: [desc] reload: [N]
+2017-05-17 22:52:08.944 DEBUG 6340 --- [http-nio-8080-exec-5] hotelservice.HotelDataController         : getHotel() returning 7 data sets
+2017-05-17 22:52:15.604 DEBUG 6340 --- [http-nio-8080-exec-9] hotelservice.HotelDataController         : getHotel() request. cityid: [bangkok] sort: [null] reload: [n]
+2017-05-17 22:52:15.608 DEBUG 6340 --- [http-nio-8080-exec-9] hotelservice.HotelDataController         : getHotel() returning 7 data sets
+2017-05-17 22:54:47.222 DEBUG 6340 --- [http-nio-8080-exec-4] hotelservice.HotelDataController         : getHotel() request. cityid: [all] sort: [null] reload: [n]
+2017-05-17 22:54:47.226 DEBUG 6340 --- [http-nio-8080-exec-4] hotelservice.HotelDataController         : getHotel() returning 26 data sets
+2017-05-17 23:05:00.929  INFO 6340 --- [Thread-3] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@559d33a3: startup date [Wed May 17 22:49:43 EDT 2017]; root of context hierarchy
+2017-05-17 23:05:00.942  INFO 6340 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-05-17 23:05:20.879  INFO 13568 --- [main] hotelservice.HotelDataControllerTests    : Starting HotelDataControllerTests on DELL with PID 13568 (started by junli in C:\workspace3\HotelAPI)
+2017-05-17 23:05:20.880 DEBUG 13568 --- [main] hotelservice.HotelDataControllerTests    : Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-05-17 23:05:20.880  INFO 13568 --- [main] hotelservice.HotelDataControllerTests    : No active profile set, falling back to default profiles: default
+2017-05-17 23:05:21.618  INFO 13568 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2017-05-17 23:05:21.618  INFO 13568 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2017-05-17 23:05:21.924  INFO 13568 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 306 ms
+2017-05-17 23:05:22.040  INFO 13568 --- [main] hotelservice.HotelDataControllerTests    : Started HotelDataControllerTests in 1.345 seconds (JVM running for 1.852)
+2017-05-17 23:05:22.093 DEBUG 13568 --- [main] hotelservice.HotelDataController         : getHotel() request. cityid: [all] sort: [null] reload: [n]
+2017-05-17 23:05:22.098 DEBUG 13568 --- [main] hotelservice.HotelDataController         : Loading data from datasource...
+2017-05-17 23:05:22.099  INFO 13568 --- [main] hotelservice.HotelDataController         : Wrong data format:CITY,HOTELID,ROOM,PRICE
+2017-05-17 23:05:22.099  INFO 13568 --- [main] hotelservice.HotelDataController         : Wrong data format:CITY,HOTELID,ROOM,PRICE
+2017-05-17 23:05:22.099 DEBUG 13568 --- [main] hotelservice.HotelDataController         : Done loading data from datasource. Total # of lines processed: 54
+2017-05-17 23:05:22.104 DEBUG 13568 --- [main] hotelservice.HotelDataController         : getHotel() returning 26 data sets
+2017-05-17 23:05:23.417  INFO 14472 --- [main] hotelservice.Application                 : Starting Application on DELL with PID 14472 (C:\workspace3\HotelAPI\target\classes started by junli in C:\workspace3\HotelAPI)
+2017-05-17 23:05:23.420 DEBUG 14472 --- [main] hotelservice.Application                 : Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-05-17 23:05:23.422  INFO 14472 --- [main] hotelservice.Application                 : No active profile set, falling back to default profiles: default
+2017-05-17 23:05:23.448  INFO 14472 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3a5e0f13: startup date [Wed May 17 23:05:23 EDT 2017]; root of context hierarchy
+2017-05-17 23:05:24.163  INFO 14472 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-05-17 23:05:24.177  INFO 14472 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-05-17 23:05:24.178  INFO 14472 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-05-17 23:05:24.244  INFO 14472 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-05-17 23:05:24.357  INFO 14472 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-05-17 23:05:24.362  INFO 14472 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-05-17 23:05:24.363  INFO 14472 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-05-17 23:05:24.364  INFO 14472 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-05-17 23:05:24.364  INFO 14472 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-05-17 23:05:24.730  INFO 14472 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-05-17 23:05:24.776  INFO 14472 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-05-17 23:05:24.781  INFO 14472 --- [main] hotelservice.Application                 : Started Application in 1.547 seconds (JVM running for 7.397)
+2017-05-17 23:05:54.642  INFO 14472 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-05-17 23:05:54.678 DEBUG 14472 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : getHotel() request. cityid: [all] sort: [null] reload: [n]
+2017-05-17 23:05:54.683 DEBUG 14472 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : Loading data from datasource...
+2017-05-17 23:05:54.684  INFO 14472 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : Wrong data format:CITY,HOTELID,ROOM,PRICE
+2017-05-17 23:05:54.688 DEBUG 14472 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : Done loading data from datasource. Total # of lines processed: 27
+2017-05-17 23:05:54.689 DEBUG 14472 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : getHotel() returning 26 data sets
+2017-05-17 23:06:51.605 DEBUG 14472 --- [http-nio-8080-exec-2] hotelservice.HotelDataController         : getHotel() request. cityid: [all] sort: [asc] reload: [n]
+2017-05-17 23:06:51.609 DEBUG 14472 --- [http-nio-8080-exec-2] hotelservice.HotelDataController         : getHotel() returning 26 data sets
+2017-05-17 23:07:07.340 DEBUG 14472 --- [http-nio-8080-exec-3] hotelservice.HotelDataController         : getHotel() request. cityid: [all] sort: [null] reload: [n]
+2017-05-17 23:07:07.344 DEBUG 14472 --- [http-nio-8080-exec-3] hotelservice.HotelDataController         : getHotel() returning 26 data sets
+2017-05-17 23:13:37.762  INFO 14472 --- [Thread-5] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3a5e0f13: startup date [Wed May 17 23:05:23 EDT 2017]; root of context hierarchy
+2017-05-17 23:13:37.774  INFO 14472 --- [Thread-5] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-05-17 23:13:44.548  INFO 14820 --- [main] hotelservice.HotelDataControllerTests    : Starting HotelDataControllerTests on DELL with PID 14820 (started by junli in C:\workspace3\HotelAPI)
+2017-05-17 23:13:44.549 DEBUG 14820 --- [main] hotelservice.HotelDataControllerTests    : Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-05-17 23:13:44.549  INFO 14820 --- [main] hotelservice.HotelDataControllerTests    : No active profile set, falling back to default profiles: default
+2017-05-17 23:13:45.277  INFO 14820 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2017-05-17 23:13:45.277  INFO 14820 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2017-05-17 23:13:45.564  INFO 14820 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 287 ms
+2017-05-17 23:13:45.673  INFO 14820 --- [main] hotelservice.HotelDataControllerTests    : Started HotelDataControllerTests in 1.314 seconds (JVM running for 1.845)
+2017-05-17 23:13:45.727 DEBUG 14820 --- [main] hotelservice.HotelDataController         : getHotel() request. cityid: [all] sort: [null] reload: [n]
+2017-05-17 23:13:45.731 DEBUG 14820 --- [main] hotelservice.HotelDataController         : Loading data from datasource...
+2017-05-17 23:13:45.732  INFO 14820 --- [main] hotelservice.HotelDataController         : Wrong data format:CITY,HOTELID,ROOM,PRICE
+2017-05-17 23:13:45.732 DEBUG 14820 --- [main] hotelservice.HotelDataController         : Done loading data from datasource. Total # of lines processed: 27
+2017-05-17 23:13:45.732 DEBUG 14820 --- [main] hotelservice.HotelDataController         : getHotel() returning 26 data sets
+2017-05-17 23:13:47.139  INFO 15764 --- [main] hotelservice.Application                 : Starting Application on DELL with PID 15764 (C:\workspace3\HotelAPI\target\classes started by junli in C:\workspace3\HotelAPI)
+2017-05-17 23:13:47.143 DEBUG 15764 --- [main] hotelservice.Application                 : Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-05-17 23:13:47.144  INFO 15764 --- [main] hotelservice.Application                 : No active profile set, falling back to default profiles: default
+2017-05-17 23:13:47.183  INFO 15764 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@ded1109: startup date [Wed May 17 23:13:47 EDT 2017]; root of context hierarchy
+2017-05-17 23:13:47.881  INFO 15764 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-05-17 23:13:47.895  INFO 15764 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-05-17 23:13:47.896  INFO 15764 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-05-17 23:13:47.961  INFO 15764 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-05-17 23:13:48.071  INFO 15764 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-05-17 23:13:48.075  INFO 15764 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-05-17 23:13:48.076  INFO 15764 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-05-17 23:13:48.077  INFO 15764 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-05-17 23:13:48.077  INFO 15764 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-05-17 23:13:48.459  INFO 15764 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-05-17 23:13:48.504  INFO 15764 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-05-17 23:13:48.508  INFO 15764 --- [main] hotelservice.Application                 : Started Application in 1.557 seconds (JVM running for 6.835)
+2017-05-17 23:14:00.258  INFO 15764 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-05-17 23:14:00.294 DEBUG 15764 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : getHotel() request. cityid: [all] sort: [null] reload: [n]
+2017-05-17 23:14:00.301 DEBUG 15764 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : Loading data from datasource...
+2017-05-17 23:14:00.302  INFO 15764 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : Wrong data format:CITY,HOTELID,ROOM,PRICE
+2017-05-17 23:14:00.306 DEBUG 15764 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : Done loading data from datasource. Total # of lines processed: 27
+2017-05-17 23:14:00.306 DEBUG 15764 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : getHotel() returning 26 data sets
+2017-05-17 23:14:13.739 DEBUG 15764 --- [http-nio-8080-exec-2] hotelservice.HotelDataController         : getHotel() request. cityid: [all] sort: [null] reload: [n]
+2017-05-17 23:14:13.743 DEBUG 15764 --- [http-nio-8080-exec-2] hotelservice.HotelDataController         : getHotel() returning 26 data sets
+2017-05-17 23:14:26.564 DEBUG 15764 --- [http-nio-8080-exec-4] hotelservice.HotelDataController         : getHotel() request. cityid: [all] sort: [desc] reload: [n]
+2017-05-17 23:14:26.568 DEBUG 15764 --- [http-nio-8080-exec-4] hotelservice.HotelDataController         : getHotel() returning 26 data sets
+2017-05-17 23:14:41.061 DEBUG 15764 --- [http-nio-8080-exec-3] hotelservice.HotelDataController         : getHotel() request. cityid: [all] sort: [null] reload: [n]
+2017-05-17 23:14:41.065 DEBUG 15764 --- [http-nio-8080-exec-3] hotelservice.HotelDataController         : getHotel() returning 26 data sets
+2017-05-17 23:14:58.456 DEBUG 15764 --- [http-nio-8080-exec-5] hotelservice.HotelDataController         : getHotel() request. cityid: [allasdf] sort: [null] reload: [n]
+2017-05-17 23:14:58.465 DEBUG 15764 --- [http-nio-8080-exec-5] hotelservice.HotelDataController         : getHotel() returning 0 data sets
+2017-05-17 23:15:10.499 DEBUG 15764 --- [http-nio-8080-exec-6] hotelservice.HotelDataController         : getHotel() request. cityid: [alsl] sort: [desc] reload: [n]
+2017-05-17 23:15:10.504 DEBUG 15764 --- [http-nio-8080-exec-6] hotelservice.HotelDataController         : getHotel() returning 0 data sets
+2017-05-17 23:21:10.015  INFO 15764 --- [Thread-5] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@ded1109: startup date [Wed May 17 23:13:47 EDT 2017]; root of context hierarchy
+2017-05-17 23:21:10.021  INFO 15764 --- [Thread-5] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-05-17 23:21:21.061  INFO 14044 --- [main] hotelservice.HotelDataControllerTests    : Starting HotelDataControllerTests on DELL with PID 14044 (started by junli in C:\workspace3\HotelAPI)
+2017-05-17 23:21:21.062 DEBUG 14044 --- [main] hotelservice.HotelDataControllerTests    : Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-05-17 23:21:21.062  INFO 14044 --- [main] hotelservice.HotelDataControllerTests    : No active profile set, falling back to default profiles: default
+2017-05-17 23:21:21.788  INFO 14044 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2017-05-17 23:21:21.788  INFO 14044 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2017-05-17 23:21:22.095  INFO 14044 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 307 ms
+2017-05-17 23:21:22.211  INFO 14044 --- [main] hotelservice.HotelDataControllerTests    : Started HotelDataControllerTests in 1.329 seconds (JVM running for 1.821)
+2017-05-17 23:21:22.265 DEBUG 14044 --- [main] hotelservice.HotelDataController         : getHotel() request. cityid: [all] sort: [null] reload: [n]
+2017-05-17 23:21:22.269 DEBUG 14044 --- [main] hotelservice.HotelDataController         : Loading data from datasource...
+2017-05-17 23:21:22.270  INFO 14044 --- [main] hotelservice.HotelDataController         : Wrong data format:CITY,HOTELID,ROOM,PRICE
+2017-05-17 23:21:22.271 DEBUG 14044 --- [main] hotelservice.HotelDataController         : Done loading data from datasource. Total # of lines processed: 59
+2017-05-17 23:21:22.271 DEBUG 14044 --- [main] hotelservice.HotelDataController         : getHotel() returning 20 data sets
+2017-05-17 23:21:23.593  INFO 10884 --- [main] hotelservice.Application                 : Starting Application on DELL with PID 10884 (C:\workspace3\HotelAPI\target\classes started by junli in C:\workspace3\HotelAPI)
+2017-05-17 23:21:23.597 DEBUG 10884 --- [main] hotelservice.Application                 : Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-05-17 23:21:23.598  INFO 10884 --- [main] hotelservice.Application                 : No active profile set, falling back to default profiles: default
+2017-05-17 23:21:23.634  INFO 10884 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@29128158: startup date [Wed May 17 23:21:23 EDT 2017]; root of context hierarchy
+2017-05-17 23:21:24.343  INFO 10884 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-05-17 23:21:24.356  INFO 10884 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-05-17 23:21:24.358  INFO 10884 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-05-17 23:21:24.422  INFO 10884 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-05-17 23:21:24.534  INFO 10884 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-05-17 23:21:24.539  INFO 10884 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-05-17 23:21:24.540  INFO 10884 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-05-17 23:21:24.541  INFO 10884 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-05-17 23:21:24.541  INFO 10884 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-05-17 23:21:24.907  INFO 10884 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-05-17 23:21:24.952  INFO 10884 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-05-17 23:21:24.957  INFO 10884 --- [main] hotelservice.Application                 : Started Application in 1.56 seconds (JVM running for 7.422)
+2017-05-17 23:21:43.649  INFO 10884 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-05-17 23:21:43.684 DEBUG 10884 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : getHotel() request. cityid: [all] sort: [null] reload: [n]
+2017-05-17 23:21:43.689 DEBUG 10884 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : Loading data from datasource...
+2017-05-17 23:21:43.690  INFO 10884 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : Wrong data format:CITY,HOTELID,ROOM,PRICE
+2017-05-17 23:21:43.696 DEBUG 10884 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : Done loading data from datasource. Total # of lines processed: 59
+2017-05-17 23:21:43.696 DEBUG 10884 --- [http-nio-8080-exec-1] hotelservice.HotelDataController         : getHotel() returning 20 data sets
+2017-05-17 23:22:16.197 DEBUG 10884 --- [http-nio-8080-exec-2] hotelservice.HotelDataController         : getHotel() request. cityid: [Ashburn] sort: [null] reload: [n]
+2017-05-17 23:22:16.206 DEBUG 10884 --- [http-nio-8080-exec-2] hotelservice.HotelDataController         : getHotel() returning 41 data sets
+2017-05-17 23:22:38.736 DEBUG 10884 --- [http-nio-8080-exec-3] hotelservice.HotelDataController         : getHotel() request. cityid: [Ashburn] sort: [desc] reload: [n]
+2017-05-17 23:22:38.741 DEBUG 10884 --- [http-nio-8080-exec-3] hotelservice.HotelDataController         : getHotel() returning 41 data sets
+2017-05-17 23:23:12.139 DEBUG 10884 --- [http-nio-8080-exec-4] hotelservice.HotelDataController         : getHotel() request. cityid: [Ashburn] sort: [null] reload: [n]
+2017-05-17 23:23:12.144 DEBUG 10884 --- [http-nio-8080-exec-4] hotelservice.HotelDataController         : getHotel() returning 41 data sets

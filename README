@@ -1,16 +1,22 @@
-Requirments:
+Requirements:
+In this exam, you are provided with hotels database in CSV (Comma Separated Values) format.
 
 We need you implement HTTP service, according to the API requirements described below. 
+You may use any language or platform that you like: C#/Java/Scala/etc.
 
+Good luck!
 API
+
     Search hotels by CityId
     Provide optional sorting of the result by Price (both ASC and DESC order).
-
+------------------------------------------------------------------------------------------------
 Solution:
 
-This application is implemented using Spring Boot. Data record is represented by HotelData.java. Main data processing logic is in HotelDataController.java. After loading hotel data from datasource file, it caches the data so no file loading is needed for subsequent request.
+This application is implemented using Spring Boot. Main data processing logic is in HotelDataController.java. 
+After loading hotel data from datasource file, it caches the data so no file loading is needed for subsequent request.
+A "reload" parameter can be added to the request url to reload the datasource. If datasource file was updated, use reload=y to refresh data without restarting the application.
 
-I) How to start the application (3 ways):
+How to start the application (3 ways):
 
 1. Run the application package (HotelAPI-0.1.0.jar) directly: 
 	*Requires Java 8 installation.
@@ -32,14 +38,14 @@ I) How to start the application (3 ways):
 3. "cd" to %WORKSPACE%/HotelAPI where the application project is downloaded. 
 	*Requires Java 8 installation and Maven.
 	Type in "mvn install", then "mvn spring-boot:run"
+	In this approach, Maven will run JUnit test, if failed, the application will not start. 
 	
-II) How to test it:
-	To test, go to http://localhost:8080/getHotel?cityid=Bangkok
+How to test run it:
+	To test, go to http://localhost:8080/getHotel?name=Bangkok
 	Use different values for name.
 	
-	To see sorted results, go to http://localhost:8080/getHotel?cityid=Bangkok&sort=asc
+	To see sorted results, go to http://localhost:8080/getHotel?name=Bangkok&sort=asc
 	Again, value for name can be changed, use 'asc' or 'desc' for sort value.
 	
-	Expected result: A json document with hotel data records in proper order is shown in browser.
-
-	Application log is generated in C:\workspace3\HotelAPI\logs\application.log, which can be used for debugging or storing user activities.
+	The call to reload data from datasource will look something like: http://localhost:8080/getHotel?name=Bangkok&reload=y
+	

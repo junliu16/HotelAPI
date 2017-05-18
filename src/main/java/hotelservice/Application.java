@@ -1,3 +1,7 @@
+/*
+ * Jun Liu
+ * 05-16-2017
+ */
 package hotelservice;
 
 import org.springframework.boot.SpringApplication;
