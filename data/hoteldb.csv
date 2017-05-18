@@ -1,1 +1,27 @@
-CITY,HOTELID,ROOM,PRICEBangkok,1,Deluxe,1000Amsterdam,2,Superior,2000Ashburn,3,Sweet Suite,1300Amsterdam,4,Deluxe,2200Ashburn,5,Sweet Suite,1200Bangkok,6,Superior,2000Ashburn,7,Deluxe,1600Bangkok,8,Superior,2400Amsterdam,9,Sweet Suite,30000Ashburn,10,Superior,1100Bangkok,11,Deluxe,60Ashburn,12,Deluxe,1800Amsterdam,13,Superior,1000Bangkok,14,Sweet Suite,25000Bangkok,15,Deluxe,900Ashburn,16,Superior,800Ashburn,17,Deluxe,2800Bangkok,18,Sweet Suite,5300Ashburn,19,Superior,1000Ashburn,20,Superior,4444Ashburn,21,Deluxe,7000Ashburn,22,Sweet Suite,14000Amsterdam,23,Deluxe,5000Ashburn,24,Superior,1400Ashburn,25,Deluxe,1900Amsterdam,26,Deluxe,2300Ashburn,191,Superior,1000Ashburn,201,Superior,4444Ashburn,211,Deluxe,7000Ashburn,221,Sweet Suite,14000Ashburn,192,Superior,1000Ashburn,202,Superior,4444Ashburn,212,Deluxe,7000Ashburn,222,Sweet Suite,14000Amsterdam,23,Deluxe,5000Ashburn,242,Superior,1400Ashburn,252,Deluxe,1900Amsterdam,26,Deluxe,2300Ashburn,1912,Superior,1000Ashburn,2012,Superior,4444Ashburn,2112,Deluxe,7000Ashburn,2212,Sweet Suite,14000Ashburn,1913,Superior,1000Ashburn,2013,Superior,4444Ashburn,2113,Deluxe,7000Ashburn,2213,Sweet Suite,14000Ashburn,1923,Superior,1000Ashburn,2023,Superior,4444Ashburn,2123,Deluxe,7000Ashburn,2232,Sweet Suite,14000Amsterdam,233,Deluxe,5000Ashburn,2423,Superior,1400Ashburn,2523,Deluxe,1900Amsterdam,236,Deluxe,2300Ashburn,19132,Superior,1000Ashburn,20132,Superior,4444Ashburn,21132,Deluxe,7000Ashburn,22132,Sweet Suite,14000
+CITY,HOTELID,ROOM,PRICE
+Bangkok,1,Deluxe,1000
+Amsterdam,2,Superior,2000
+Ashburn,3,Sweet Suite,1300
+Amsterdam,4,Deluxe,2200
+Ashburn,5,Sweet Suite,1200
+Bangkok,6,Superior,2000
+Ashburn,7,Deluxe,1600
+Bangkok,8,Superior,2400
+Amsterdam,9,Sweet Suite,30000
+Ashburn,10,Superior,1100
+Bangkok,11,Deluxe,60
+Ashburn,12,Deluxe,1800
+Amsterdam,13,Superior,1000
+Bangkok,14,Sweet Suite,25000
+Bangkok,15,Deluxe,900
+Ashburn,16,Superior,800
+Ashburn,17,Deluxe,2800
+Bangkok,18,Sweet Suite,5300
+Ashburn,19,Superior,1000
+Ashburn,20,Superior,4444
+Ashburn,21,Deluxe,7000
+Ashburn,22,Sweet Suite,14000
+Amsterdam,23,Deluxe,5000
+Ashburn,24,Superior,1400
+Ashburn,25,Deluxe,1900
+Amsterdam,26,Deluxe,2300
