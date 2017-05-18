@@ -83,7 +83,7 @@ public class HotelData implements Serializable, Comparable<HotelData>{
 	public int hashCode() {
 		int hash = 7;// an arbitrary number
 		hash = 31 * hash + this.hotelId;
-		hash +=  this.city.toLowerCase().hashCode();
+		hash +=  this.city.toLowerCase().hashCode();//case insensitive when comparing
 		return hash;
 	}
 }
